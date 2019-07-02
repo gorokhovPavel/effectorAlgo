@@ -1,12 +1,13 @@
 import React from 'react';
 import RestaurantList from './components/restaurantList/index';
 import {restaurants} from './sources/fixtures'
+import "antd/dist/antd.css";
 
 function App() {
 
   return (
     <div>
-      <RestaurantList {...restaurants} />
+      <RestaurantList dataList={restaurants} />
     </div>
   );
 }
