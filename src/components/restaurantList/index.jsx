@@ -13,8 +13,8 @@ export default function RestaurantList({dataList}){
                 renderItem={item => (
                     <List.Item style={{ paddingLeft : '8px' }} >
                         <List.Item.Meta
-                            avatar={<Avatar shape="square" src={item.image} />}
-                            title={item.name}
+                        avatar={<Avatar shape="square" src={item.image} />}
+                        title={item.name}
                         />
                     </List.Item>
                 )}
