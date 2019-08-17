@@ -1,0 +1,18 @@
+.phone {
+  background-color: red;
+}
+
+.winterImg {
+  float: left;
+  margin-right: 10px;
+}
+
+.inline li {
+  display: inline;
+  margin: 10px;
+}
+
+.frame {
+  width: 400px;
+  height: 400px;
+}
