@@ -3,7 +3,6 @@ import thunk from "redux-thunk";
 import { routerMiddleware } from "connected-react-router";
 import reducer from "./reducers";
 //import logger from "../middlewares/logger";
-//import generateId from "../middlewares/generateId";
 
 const enhancer = applyMiddleware(
   thunk
