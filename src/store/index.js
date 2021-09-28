@@ -5,7 +5,6 @@ import reducer from "./reducers";
 //import logger from "../middlewares/logger";
 //import generateId from "../middlewares/generateId";
 //import api from "../middlewares/api";
-//import history from "../history";
 
 const enhancer = applyMiddleware(
   thunk
