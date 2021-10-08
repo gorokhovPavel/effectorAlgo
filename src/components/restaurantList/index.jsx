@@ -1,8 +1,9 @@
 import React from "react";
 import { List, Avatar } from "antd";
+
 export const RestaurantList = ({ dataList }) => {
+
   return (
-    
     <>
       <List
         itemLayout="horizontal"
