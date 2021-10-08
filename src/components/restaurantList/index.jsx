@@ -2,6 +2,7 @@ import React from "react";
 import { List, Avatar } from "antd";
 export default function RestaurantList({ dataList }) {
   return (
+    
     <>
       <List
         itemLayout="horizontal"
