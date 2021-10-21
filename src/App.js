@@ -8,7 +8,7 @@ function App() {
     <>
       <Test />
     
-      {/* <RestaurantList dataList={restaurants} /> */}
+      <RestaurantList dataList={restaurants} />
     </>
   );
 }
