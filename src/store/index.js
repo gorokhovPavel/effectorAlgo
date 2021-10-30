@@ -6,9 +6,9 @@ import logger from "../middlewares/logger";
 
 const enhancer = applyMiddleware(
   thunk
-  //routerMiddleware(history)
-  //generateId,
-  //api
+  routerMiddleware(history)
+  generateId,
+  api
 );
 const store = createStore(reducer, enhancer);
 
