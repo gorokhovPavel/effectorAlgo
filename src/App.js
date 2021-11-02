@@ -2,8 +2,8 @@ import React from "react";
 import RestaurantList from "./components/restaurantList/index";
 import Test from "./components/test/index";
 import "antd/dist/antd.css";
-function App() {
-  
+
+export const App = ()=> {
   const restaurants = [];
   
   return (
