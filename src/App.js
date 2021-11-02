@@ -7,7 +7,6 @@ function App() {
   const restaurants = [];
   
   return (
-    
     <>
       <Test />
       <RestaurantList dataList={restaurants} />
