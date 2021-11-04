@@ -9,7 +9,7 @@ export const App = ()=> {
   return (
     <>
       <Test />
-      <RestaurantList dataList={restaurants} />
+      <RestaurantList dataList={[...restaurants, 'test']} />
     </>
   )
 }
