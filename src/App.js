@@ -5,7 +5,6 @@ import "antd/dist/antd.css";
 
 export const App = ()=> {
   const restaurants = [];
-  
   return (
     <>
       <Test />
